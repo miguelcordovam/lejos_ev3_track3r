@@ -8,8 +8,6 @@ public class Shooting {
 
 	public static void main(String[] args) {
 
-		EV3LargeRegulatedMotor LEFT_MOTOR = new EV3LargeRegulatedMotor(
-				MotorPort.D);
 		EV3LargeRegulatedMotor RIGHT_MOTOR = new EV3LargeRegulatedMotor(
 				MotorPort.A);
 
@@ -21,8 +19,6 @@ public class Shooting {
 		}
 
 		RIGHT_MOTOR.close();
-		LEFT_MOTOR.close();
-
 	}
 
 	private static void shootBall() {
